@@ -1,3 +1,0 @@
-require 'password_generator_trigram'
-
-puts PasswordGenerator.new.create_new(ARGV[0])
