@@ -1,11 +1,3 @@
 require 'password_generator_trigram'
 
-if ARGV[0].is_a == Integer then
-  puts PasswordGenerator.new.create_new(ARGV[0].to_i)
-elseif ARGV.empty then
-  puts "Enter password length"
-elseif ARGV.length > 1 then
-  puts "How many argyments"
-else
-  puts "But we do generate your password?"
-end
+puts PasswordGenerator.new.create_new(ARGV.first.to_i)
