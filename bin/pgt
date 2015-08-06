@@ -11,5 +11,5 @@ elsif !pg.is_number? ARGV.first
 elsif ARGV.first.to_i < 6
   puts "Too simple password, minimum length of 6 characters"
 else
-  puts pg.new.create_new(ARGV.first.to_i)
+  puts pg.create_new(ARGV.first.to_i)
 end
