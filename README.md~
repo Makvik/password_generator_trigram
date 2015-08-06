@@ -30,4 +30,6 @@ puts PasswordGenerator.new.create_new(length)
 
 or 
 
-ruby ./bin/pgt 10 #length
+pgt
+
+## Contributing
