@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = PasswordGeneratorTrigram::VERSION
   spec.authors       = ["Makvik"]
   spec.email         = ["storm.gman@mail.ru"]
-  spec.summary       = ""
-  spec.description   = ""
+  spec.summary       = "GPW - Generate pronounceable passwords. This program uses statistics on the frequency of three-letter sequences in English to generate passwords."
+  spec.description   = "GPW - Generate pronounceable passwords. This program uses statistics on the frequency of three-letter sequences in English to generate passwords."
   spec.homepage      = "https://github.com/Makvik/password_generator_trigram"
   spec.license       = "MIT"
 
